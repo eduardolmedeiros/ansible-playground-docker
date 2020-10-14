@@ -1,6 +1,6 @@
 FROM centos:8
 
-MAINTAINER <eduardo@dotmac.com.br>
+LABEL maintainer="Eduardo Medeiros"
 
 ENV container docker
 
