@@ -22,20 +22,28 @@ Tests your playbooks and roles in a safe place, without breaking stuff.
 ### 1.1 via docker cli (1st option)
 
 ```
+# start
 $ docker run --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d --name ansible-playground emedeiros/ansible-playground
 $ docker exec -it ansible-playground bash
+
+# stop
 $ docker stop ansible-playground
+$ docker container rm ansible-playground
 ```
 
 ### 1.2 via docker-compose (2nd option)
 
 ```
+# start
 $ docker-compose up -d
 $ docker-compose exec ansible-playground bash
+
+# stop
 $ docker-compose stop
+$ docker-compose rm
 ```
 
-### 1.3 samples
+### 1.3 Interactive mode (shell)
 
 ```
 $ docker-compose exec ansible-playground bash
