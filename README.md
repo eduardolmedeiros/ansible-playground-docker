@@ -1,6 +1,7 @@
 # Ansible Playground docker image
 
 This is a docker image for ansible playground.
+Tests your playbooks and roles in a safe place, without breaking stuff.
 
 ### Requirement
 
