@@ -1,7 +1,11 @@
 # Ansible Playground docker image
 
 This is a docker image for ansible playground.
-Tests your playbooks and roles in a safe place, without breaking stuff.
+
+This image provides you the ability to run ansible on centos8 environment with systemd support.
+
+By using that image, you can run playbooks and roles without breaking stuff, or making any changes on your local station.
+
 
 ### Requirement
 
