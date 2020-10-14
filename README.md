@@ -1,6 +1,6 @@
 # Ansible Playground docker image
 
-This is a dummy container for ansible playground.
+This is a docker image for ansible playground.
 
 ### Requirement
 
