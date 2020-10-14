@@ -1,0 +1,9 @@
+
+version: '3'
+
+services:
+  ansible-playground:
+    image: emedeiros/ansible-playground
+    privileged: true
+    volumes:
+        - /sys/fs/cgroup:/host/cgroup:ro
